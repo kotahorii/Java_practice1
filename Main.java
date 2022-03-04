@@ -1,6 +1,10 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println(12 / 3);
-    System.out.println();
+    int number;
+    number = 3;
+    System.out.println(number);
+    String name;
+    name = "Wanko";
+    System.out.println(name);
   }
 }
