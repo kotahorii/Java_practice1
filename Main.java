@@ -1,9 +1,12 @@
 class Main {
   public static void main(String[] args) {
-    int number1 = 3;
-    int number2 = 7;
-    System.out.println(number1 * number2);
-    String text = "プログラミングを勉強しよう";
-    System.out.println("Progateで" + text);
+    int number = 11;
+    String text = "Ruby";
+    System.out.println(number);
+    System.out.println(text);
+    number = 9;
+    System.out.println(number);
+    text = "Java";
+    System.out.println(text);
   }
 }
