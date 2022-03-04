@@ -1,12 +1,11 @@
 class Main {
   public static void main(String[] args) {
-    int number = 11;
-    String text = "Ruby";
-    System.out.println(number);
-    System.out.println(text);
-    number = 9;
-    System.out.println(number);
-    text = "Java";
-    System.out.println(text);
+    int length = 6;
+    int height = 8;
+
+    int rectangleArea = length * height;
+    int triangleArea = rectangleArea / 2;
+    System.out.println(rectangleArea);
+    System.out.println(triangleArea);
   }
 }
